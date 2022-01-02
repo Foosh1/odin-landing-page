@@ -1,0 +1,105 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+
+    padding: 32px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.head-one{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul{
+    display: flex;
+
+    list-style: none;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    flex-grow: 0;
+    background-color:#3882F6;
+    
+}
+
+
+
+
+.head-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+
+.box-one{
+    color:black;
+}
+
+
+.elements{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    column-gap: 32px;
+    padding: 32px;
+    
+}
+
+.water, .earth,.fire,.air{
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+width: 300px;
+height: 200px;
+}
+
+.box-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size:36px;
+    font-style:  italic;
+    color:#1F2937;
+    background-color: #E5E7EB;
+}
+.iroh{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.blue-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 16px 64px;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+}
