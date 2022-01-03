@@ -1,16 +1,23 @@
 
+body{
+    display:flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+}
 .header{
     display: flex;
     flex-direction: column;
 
-    padding: 32px;
+    padding:0px 15% 3%;
     background-color: #1F2937;
-    color: white;
+    color: #E5E7EB;
 }
 
 .head-one{
     display: flex;
     justify-content: space-between;
+   
 
 }
 
@@ -18,32 +25,65 @@ ul{
     display: flex;
 
     list-style: none;
-    gap: 16px;
+    gap: 24px;
 }
+
 
 a{
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
 }
 
-button{
-    flex-grow: 0;
-    background-color:#3882F6;
-    
+.head-one a{
+    color: #E5E7EB;
 }
+
 
 
 
 
 .head-two{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2%;
+    
 }
 
+.head-three{
+    display: flex;
+    flex-direction:column;
+    
+    
+}   
+
+.logo-img{
+    background-color: white;
+    border-radius: 15px;
+    padding: 32px;
+    height:auto;
+    width: 500px;
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+
+h2{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
 
 
 h3{
     text-align: center;
+    color: #1F2937;
     font-size: 36px;
     font-weight: bold;
 
@@ -68,12 +108,16 @@ h3{
 .water, .earth,.fire,.air{
     text-align: center;
     font-weight: bold;
+    
 }
 
-img{
-width: 300px;
-height: 200px;
+.elements-img{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    
 }
+
 
 .box-two{
     display: flex;
@@ -84,6 +128,7 @@ height: 200px;
     font-style:  italic;
     color:#1F2937;
     background-color: #E5E7EB;
+    padding: 32px 25% 32px;
 }
 .iroh{
     color: black;
@@ -92,14 +137,50 @@ height: 200px;
     align-self: flex-end;
 }
 
+.box-three{
+    padding: 64px 20% 64px;
+}
+
 .blue-box{
     display: flex;
     justify-content: space-between;
+
+    
+    color: #F9FAF8;
+    border-radius: 10px;
     background-color: #3882F6;
-    padding: 16px 64px;
+    padding: 32px 10% 32px;
 }
 
 .footer{
     background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 24px;
     text-align: center;
 }
+
+.appa,.sign-up{
+    
+    font-size: 24px;
+    border-radius: 5px;
+    background-color:#3882F6;
+    color: white;
+    font-weight: bolder;
+    
+    
+
+
+
+}
+
+.appa{
+    border:1px solid #3882F6; ;
+    width:100px;
+}
+
+.sign-up{
+    align-self: center;
+    border: 2px solid white;
+    height:40px;
+}
+
